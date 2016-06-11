@@ -15,7 +15,7 @@ while gold == tiger:
 print("There are nine doors in front of you, and behind one of them is gold. Behind another is a tiger that will eat you.")
 
 def enterDoor():
-    print("Choose door(#between 1-9)")
+    print("Choose door(Numbers between 1-9)")
     door = input()
     door = int(door)
     return door
